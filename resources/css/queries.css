@@ -56,6 +56,41 @@
     
     .main-nav { display: none; }
     
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    
+    .main-nav {
+        float: right;
+        margin-top: 5px;
+        margin-right: 15px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 10px 0;
+    }
+
+    .sticky .main-nav {
+        margin-top: 5px;
+    }
+    
+    .sticky .mobile-nav-icon i {
+        color: #555;
+    }
+    
     h1 { font-size: 180%; }
     h1 { font-size: 150%; }
     
@@ -103,12 +138,6 @@
     
     .contact-form { width: 100%; }
     
-    .logo {
-        display: block;
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
 
 /* Small phones: from 0 to 480px */
